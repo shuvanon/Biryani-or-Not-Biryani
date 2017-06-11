@@ -39,7 +39,7 @@ Now we have our Biryani classifier. To test this classifier run `label_image.py`
 ```
 (biryani)C:> python label_image.py "Test Image\pic_006.jpg"
 ```
-this will provide output somthing like this
+this will provide output something like this
 ```
 biryani (score = 0.99412)
 notbiryani (score = 0.00588)
