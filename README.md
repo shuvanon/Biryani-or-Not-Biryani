@@ -28,3 +28,8 @@ python retrain.py --bottleneck_dir=bottlenecks --model_dir=inception \
 That is gonna take a while depending on your machine. After it is done it is already download google inception model and create 3 new folder `training_summaries`, `inception`, `bottlenecks` and save new output graph in `retrained_graph.pb` and output labels in `retrained_labels.txt`
 
 ## Running the tests
+Now we have our Biryani classifier. To test this classifier run `label_image.py` with image dir/name
+
+```
+(biryani)C:> python label_image.py ...
+```
