@@ -25,7 +25,7 @@ If you are using machine without GPU like me install CPU-only version of Tensorf
 
 Now it's time to train Biryani model
 ```
-python retrain.py --bottleneck_dir=bottlenecks --model_dir=inception \
+(biryani)C:> python retrain.py --bottleneck_dir=bottlenecks --model_dir=inception \
 --summaries_dir=training_summaries/long --output_graph=retrained_graph.pb \
 --output_labels=retrained_labels.txt --image_dir=images
 ```
