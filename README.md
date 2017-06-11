@@ -2,7 +2,7 @@
 Biryani or Not Biryani is a Biryani classifier. It predict a image is Biryani or not. 
 
 ## Getting Started
-This instruction is for windows 10 machine. If you are using linux or mac this is more esear than that.
+This instruction is for windows 10 machine. If you are using linux or mac this is more easier than that.
 
 ### Prerequisites
 * Anaconda
