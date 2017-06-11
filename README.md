@@ -31,5 +31,14 @@ That is gonna take a while depending on your machine. After it is done it is alr
 Now we have our Biryani classifier. To test this classifier run `label_image.py` with image dir/name
 
 ```
-(biryani)C:> python label_image.py ...
+(biryani)C:> python label_image.py "Test Image\pic_006.jpg"
 ```
+this will provide output somthing like this
+```
+biryani (score = 0.99412)
+notbiryani (score = 0.00588)
+```
+## Acknowledgments
+* [Tensorflow official tutorial](https://www.tensorflow.org/tutorials/image_retraining)
+* [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) for helping collect Train and Test image from google image search.
+* And of course [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)) for spread this funny idea.
